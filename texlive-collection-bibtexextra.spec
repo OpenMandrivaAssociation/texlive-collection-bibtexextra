@@ -5,7 +5,7 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-collection-bibtexextra
-Version:	20120223
+Version:	20120224
 Release:	1
 Summary:	Extra BibTeX styles
 Group:		Publishing

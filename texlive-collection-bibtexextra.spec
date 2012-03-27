@@ -1,4 +1,4 @@
-# revision 24610
+# revision 25686
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-bibtexextra
 Epoch:		1
-Version:	20120224
+Version:	20120327
 Release:	1
 Summary:	Extra BibTeX styles
 Group:		Publishing
@@ -16,6 +16,7 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-bibtex
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-latex
 Requires:	texlive-aichej
 Requires:	texlive-amsrefs
 Requires:	texlive-apacite
@@ -84,9 +85,9 @@ Requires:	texlive-sort-by-letters
 Requires:	texlive-splitbib
 Requires:	texlive-uni-wtal-ger
 Requires:	texlive-urlbst
+Requires:	texlive-usebib
 Requires:	texlive-vak
 Requires:	texlive-xcite
-Requires:	texlive-collection-latex
 
 %description
 Additional BibTeX styles and bibliography databases, including

@@ -1,4 +1,4 @@
-# revision 25686
+# revision 25790
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-bibtexextra
 Epoch:		1
-Version:	20120327
+Version:	20120413
 Release:	1
 Summary:	Extra BibTeX styles
 Group:		Publishing
@@ -62,6 +62,7 @@ Requires:	texlive-doipubmed
 Requires:	texlive-fbs
 Requires:	texlive-figbib
 Requires:	texlive-footbib
+Requires:	texlive-geschichtsfrkl
 Requires:	texlive-harvard
 Requires:	texlive-harvmac
 Requires:	texlive-historische-zeitschrift

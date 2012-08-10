@@ -1,4 +1,4 @@
-# revision 25790
+# revision 27058
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-bibtexextra
 Epoch:		1
-Version:	20120413
+Version:	20120810
 Release:	1
 Summary:	Extra BibTeX styles
 Group:		Publishing
@@ -23,11 +23,11 @@ Requires:	texlive-apacite
 Requires:	texlive-apalike2
 Requires:	texlive-beebe
 Requires:	texlive-bibarts
-Requires:	texlive-biber
 Requires:	texlive-bibexport
 Requires:	texlive-bibhtml
 Requires:	texlive-biblatex
 Requires:	texlive-biblatex-apa
+Requires:	texlive-biblatex-bwl
 Requires:	texlive-biblatex-chem
 Requires:	texlive-biblatex-chicago
 Requires:	texlive-biblatex-dw
@@ -41,7 +41,9 @@ Requires:	texlive-biblatex-musuos
 Requires:	texlive-biblatex-nature
 Requires:	texlive-biblatex-nejm
 Requires:	texlive-biblatex-philosophy
+Requires:	texlive-biblatex-phys
 Requires:	texlive-biblatex-science
+Requires:	texlive-biblatex-swiss-legal
 Requires:	texlive-biblist
 Requires:	texlive-bibtopic
 Requires:	texlive-bibtopicprefix

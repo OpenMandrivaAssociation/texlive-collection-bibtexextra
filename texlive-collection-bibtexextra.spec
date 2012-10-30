@@ -1,4 +1,4 @@
-# revision 27058
+# revision 28050
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-bibtexextra
 Epoch:		1
-Version:	20120810
+Version:	20121030
 Release:	1
 Summary:	Extra BibTeX styles
 Group:		Publishing
@@ -28,6 +28,7 @@ Requires:	texlive-bibhtml
 Requires:	texlive-biblatex
 Requires:	texlive-biblatex-apa
 Requires:	texlive-biblatex-bwl
+Requires:	texlive-biblatex-caspervector
 Requires:	texlive-biblatex-chem
 Requires:	texlive-biblatex-chicago
 Requires:	texlive-biblatex-dw
@@ -42,8 +43,10 @@ Requires:	texlive-biblatex-nature
 Requires:	texlive-biblatex-nejm
 Requires:	texlive-biblatex-philosophy
 Requires:	texlive-biblatex-phys
+Requires:	texlive-biblatex-publist
 Requires:	texlive-biblatex-science
 Requires:	texlive-biblatex-swiss-legal
+Requires:	texlive-biblatex-trad
 Requires:	texlive-biblist
 Requires:	texlive-bibtopic
 Requires:	texlive-bibtopicprefix
@@ -64,6 +67,7 @@ Requires:	texlive-doipubmed
 Requires:	texlive-fbs
 Requires:	texlive-figbib
 Requires:	texlive-footbib
+Requires:	texlive-francais-bst
 Requires:	texlive-geschichtsfrkl
 Requires:	texlive-harvard
 Requires:	texlive-harvmac
@@ -80,6 +84,7 @@ Requires:	texlive-margbib
 Requires:	texlive-multibib
 Requires:	texlive-munich
 Requires:	texlive-notes2bib
+Requires:	texlive-oscola
 Requires:	texlive-perception
 Requires:	texlive-pnas2009
 Requires:	texlive-rsc

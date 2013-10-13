@@ -1,4 +1,4 @@
-# revision 27058
+# revision 30511
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,9 +6,9 @@
 # catalog-version undef
 Name:		texlive-collection-bibtexextra
 Epoch:		1
-Version:	20120810
+Version:	20131013
 Release:	1
-Summary:	Extra BibTeX styles
+Summary:	BibTeX additional styles
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
@@ -28,10 +28,12 @@ Requires:	texlive-bibhtml
 Requires:	texlive-biblatex
 Requires:	texlive-biblatex-apa
 Requires:	texlive-biblatex-bwl
+Requires:	texlive-biblatex-caspervector
 Requires:	texlive-biblatex-chem
 Requires:	texlive-biblatex-chicago
 Requires:	texlive-biblatex-dw
 Requires:	texlive-biblatex-fiwi
+Requires:	texlive-biblatex-gost
 Requires:	texlive-biblatex-historian
 Requires:	texlive-biblatex-ieee
 Requires:	texlive-biblatex-juradiss
@@ -42,8 +44,10 @@ Requires:	texlive-biblatex-nature
 Requires:	texlive-biblatex-nejm
 Requires:	texlive-biblatex-philosophy
 Requires:	texlive-biblatex-phys
+Requires:	texlive-biblatex-publist
 Requires:	texlive-biblatex-science
 Requires:	texlive-biblatex-swiss-legal
+Requires:	texlive-biblatex-trad
 Requires:	texlive-biblist
 Requires:	texlive-bibtopic
 Requires:	texlive-bibtopicprefix
@@ -64,6 +68,7 @@ Requires:	texlive-doipubmed
 Requires:	texlive-fbs
 Requires:	texlive-figbib
 Requires:	texlive-footbib
+Requires:	texlive-francais-bst
 Requires:	texlive-geschichtsfrkl
 Requires:	texlive-harvard
 Requires:	texlive-harvmac
@@ -78,8 +83,10 @@ Requires:	texlive-listbib
 Requires:	texlive-logreq
 Requires:	texlive-margbib
 Requires:	texlive-multibib
+Requires:	texlive-multibibliography
 Requires:	texlive-munich
 Requires:	texlive-notes2bib
+Requires:	texlive-oscola
 Requires:	texlive-perception
 Requires:	texlive-pnas2009
 Requires:	texlive-rsc
@@ -87,14 +94,15 @@ Requires:	texlive-showtags
 Requires:	texlive-sort-by-letters
 Requires:	texlive-splitbib
 Requires:	texlive-uni-wtal-ger
+Requires:	texlive-uni-wtal-lin
 Requires:	texlive-urlbst
 Requires:	texlive-usebib
 Requires:	texlive-vak
 Requires:	texlive-xcite
 
 %description
-Additional BibTeX styles and bibliography databases, including
-BibLaTeX.
+Additional BibTeX styles and bibliography data(bases), notably
+including BibLaTeX.
 
 #-----------------------------------------------------------------------
 %files
@@ -106,25 +114,3 @@ BibLaTeX.
 %build
 
 %install
-
-
-%changelog
-* Fri Aug 10 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120810-1
-+ Revision: 813899
-- Update to latest release.
-
-* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120413-1
-+ Revision: 790845
-- Update to latest release.
-
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120327-1
-+ Revision: 787845
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780191
-- Update to latest release.
-- Import texlive-collection-bibtexextra
-- Import texlive-collection-bibtexextra
-- Import texlive-collection-bibtexextra
-

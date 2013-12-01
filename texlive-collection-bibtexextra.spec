@@ -1,4 +1,4 @@
-# revision 30511
+# revision 32275
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-bibtexextra
 Epoch:		1
-Version:	20131013
+Version:	20131201
 Release:	1
 Summary:	BibTeX additional styles
 Group:		Publishing
@@ -22,6 +22,7 @@ Requires:	texlive-amsrefs
 Requires:	texlive-apacite
 Requires:	texlive-apalike2
 Requires:	texlive-beebe
+Requires:	texlive-besjournals
 Requires:	texlive-bibarts
 Requires:	texlive-bibexport
 Requires:	texlive-bibhtml

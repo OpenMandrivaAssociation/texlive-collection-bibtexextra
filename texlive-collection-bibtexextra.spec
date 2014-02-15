@@ -1,4 +1,4 @@
-# revision 32275
+# revision 32761
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-bibtexextra
 Epoch:		1
-Version:	20131201
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	BibTeX additional styles
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -39,6 +39,7 @@ Requires:	texlive-biblatex-historian
 Requires:	texlive-biblatex-ieee
 Requires:	texlive-biblatex-juradiss
 Requires:	texlive-biblatex-luh-ipw
+Requires:	texlive-biblatex-manuscripts-philology
 Requires:	texlive-biblatex-mla
 Requires:	texlive-biblatex-musuos
 Requires:	texlive-biblatex-nature
@@ -47,6 +48,7 @@ Requires:	texlive-biblatex-philosophy
 Requires:	texlive-biblatex-phys
 Requires:	texlive-biblatex-publist
 Requires:	texlive-biblatex-science
+Requires:	texlive-biblatex-source-division
 Requires:	texlive-biblatex-swiss-legal
 Requires:	texlive-biblatex-trad
 Requires:	texlive-biblist
@@ -66,6 +68,7 @@ Requires:	texlive-custom-bib
 Requires:	texlive-din1505
 Requires:	texlive-dk-bib
 Requires:	texlive-doipubmed
+Requires:	texlive-economic
 Requires:	texlive-fbs
 Requires:	texlive-figbib
 Requires:	texlive-footbib

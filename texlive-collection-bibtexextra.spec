@@ -1,4 +1,4 @@
-# revision 32761
+# revision 34016
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-bibtexextra
 Epoch:		1
-Version:	20140215
-Release:	2
+Version:	20140621
+Release:	1
 Summary:	BibTeX additional styles
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -18,6 +18,7 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires:	texlive-collection-latex
 Requires:	texlive-aichej
+Requires:	texlive-ajl
 Requires:	texlive-amsrefs
 Requires:	texlive-apacite
 Requires:	texlive-apalike2
@@ -51,6 +52,7 @@ Requires:	texlive-biblatex-science
 Requires:	texlive-biblatex-source-division
 Requires:	texlive-biblatex-swiss-legal
 Requires:	texlive-biblatex-trad
+Requires:	texlive-biblatex-true-citepages-omit
 Requires:	texlive-biblist
 Requires:	texlive-bibtopic
 Requires:	texlive-bibtopicprefix

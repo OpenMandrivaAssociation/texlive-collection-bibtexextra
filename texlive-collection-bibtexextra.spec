@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-bibtexextra
 Epoch:		1
-Version:	20171022
+Version:	20180526
 Release:	1
 Summary:	BibTeX additional styles
 Group:		Publishing

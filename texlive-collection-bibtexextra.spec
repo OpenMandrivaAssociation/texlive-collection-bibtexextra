@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-bibtexextra
 Epoch:		1
-Version:	20180526
-Release:	2
+Version:	20190203
+Release:	1
 Summary:	BibTeX additional styles
 Group:		Publishing
 URL:		http://tug.org/texlive

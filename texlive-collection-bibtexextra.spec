@@ -1,7 +1,7 @@
 Name:		texlive-collection-bibtexextra
 Epoch:		1
 Version:	65257
-Release:	1
+Release:	2
 Summary:	BibTeX additional styles
 Group:		Publishing
 URL:		http://tug.org/texlive

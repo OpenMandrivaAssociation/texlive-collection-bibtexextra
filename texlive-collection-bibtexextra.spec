@@ -1,6 +1,6 @@
 Name:		texlive-collection-bibtexextra
 Epoch:		1
-Version:	71940
+Version:	74736
 Release:	1
 Summary:	BibTeX additional styles
 Group:		Publishing

@@ -11,8 +11,6 @@ License:	LPPL
 Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-bibtexextra.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-BuildRequires:	texlive-tlpkg
-%texlive_base_requires
 Requires:	texlive(aaai-named)
 Requires:	texlive(aichej)
 Requires:	texlive(ajl)

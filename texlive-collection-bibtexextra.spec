@@ -1,5 +1,5 @@
 %global tl_name collection-bibtexextra
-%global tl_revision 79143
+%global tl_revision 79900
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -43,6 +43,7 @@ Requires:	texlive(biblatex-apa)
 Requires:	texlive(biblatex-apa6)
 Requires:	texlive(biblatex-archaeology)
 Requires:	texlive(biblatex-arthistory-bonn)
+Requires:	texlive(biblatex-asa)
 Requires:	texlive(biblatex-bath)
 Requires:	texlive(biblatex-bookinarticle)
 Requires:	texlive(biblatex-bookinother)
